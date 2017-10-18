@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+{% block body%}
+    <h2>{{the_title}}</h2>
+    <p>Los valores de la ecuacion:</p>
+    <table>
+        <tr>
+            <td>Intencidad:</td>
+            <td>{{the_i}}</td>
+        </tr>
+        <tr>
+            <td>Tiempo:</td>
+            <td>{{the_t}}</td>
+        </tr>
+        <tr>
+            <td> El resultado es:</td>
+            <td>{{the_result}}</td>
+        </tr>
+    </table>
+    <p><a href="/entry">Regresar</a></p>
+{% endblock%}

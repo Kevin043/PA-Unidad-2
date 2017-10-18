@@ -1,0 +1,6 @@
+formulas.py
+setup.py
+formulas.egg-info/PKG-INFO
+formulas.egg-info/SOURCES.txt
+formulas.egg-info/dependency_links.txt
+formulas.egg-info/top_level.txt
